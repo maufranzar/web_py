@@ -16,10 +16,8 @@ from web_py.styles.styles import Size as Size
 ...
 
 
-
-class State(rx.State):
-    pass
-
+# class State(rx.State):
+#     pass
 
 
 ...
