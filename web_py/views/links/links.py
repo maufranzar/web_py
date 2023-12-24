@@ -10,7 +10,7 @@ def links() -> rx.Component:
         title("Proyectos"),
         
         link_button("Electronica",
-                    "Sensor IoT - ESP32",
+                    "Proyecto: Sensor IoT - ESP32",
                     "icon/chip.svg",
                     "https://github.com/maufranzar"),
         
@@ -37,7 +37,7 @@ def links() -> rx.Component:
                     "https://linkedin.com/in/maufranzar"),
         
         link_button("Email",
-                    "no quiero poner mi email aqui xd",
+                    "En construccion... 🚧",
                     "icon/mail.svg",
                     "https://github.com/maufranzar"),
               

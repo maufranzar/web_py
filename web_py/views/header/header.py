@@ -27,7 +27,7 @@ def header() -> rx.Component:
                 rx.text("@maufranzar",
                     magin_top=Size.ZERO.value,
                     color=Color.ICON.value,
-                    font_size=Size.MEDIUM.value
+                    font_size=Size.DEFAULT.value
                 ),
                 rx.hstack(
                     link_icon("icon/github.svg",
@@ -55,18 +55,14 @@ def header() -> rx.Component:
         ),
         
         rx.flex(
-            info_text("+2","experiencia"),
+            info_text("Bienvenid@","👋🏼"),
             rx.Spacer(),
-            info_text("+2","experiencia"),
-            rx.Spacer(),
-            info_text("+2","experiencia"),
+            info_text("🍃"," "),
             width="100%",
         ),
         
-        
         rx.text("""
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.
+             En este espacio comparto informacion sobre mis proyectos e intereses. Me apaciona la tecnologia y el poder que tiene para mejorar la vida las personas, sin embargo el acceso a ella no es igual para todos. Me motiva la idea de poder contribuir a reducir tal brecha. 
             """,
             font_size=Size.DEFAULT.value,
             color=TextColor.BODY.value,

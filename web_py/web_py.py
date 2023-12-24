@@ -3,15 +3,12 @@
 import reflex as rx
 ...
 
-
-
 from web_py.components.navbar import navbar
 from web_py.components.footer import footer
 from web_py.views.header.header import header
 from web_py.views.links.links import links
 import web_py.styles.styles as styles
 from web_py.styles.styles import Size as Size
-
 
 ...
 
@@ -48,8 +45,8 @@ app = rx.App(
 
 app.add_page(
     index,
-    title="",
-    description="",
-    image="",
+    title="maufranzar",
+    description="web personal hecha solo con python! :D | Gracias Reflex!",
+    image="img/logo_.ico",
 )
 app.compile()

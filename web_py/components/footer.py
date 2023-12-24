@@ -2,6 +2,7 @@ import reflex as rx
 import datetime
 from web_py.styles.styles import Size as Size
 from web_py.styles.colors import TextColor as TextColor
+from web_py.components.info_text import info_text
 
 def footer() -> rx.Component:
     return rx.vstack(
@@ -13,17 +14,17 @@ def footer() -> rx.Component:
                 alt="logo de la pagina"
         ),
         
-        rx.link(f"© {datetime.date.today().year}  Mauricio Franco Salazar",
+        rx.link(f"© {datetime.date.today().year} - Mauricio Franco Salazar",
                 href="https://maufranzar.com",
-                is_external=True,
                 font_size=Size.DEFAULT.value,
                 color=TextColor.FOOTER.value,
         ),
         
-        rx.text("A hombros de gigantes",
+        rx.text("Gracias por tu visita 🐸",
                 font_size=Size.DEFAULT.value,
                 color=TextColor.FOOTER.value,
         ),
+                
         margin_bottom=Size.BIG.value,
         padding_bottom=Size.BIG.value,
         padding_x=Size.BIG.value,        
