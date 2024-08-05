@@ -1,11 +1,11 @@
 import reflex as rx
-from web_py.components.link_icon import link_icon
-from web_py.components.info_text import info_text
-from web_py.styles.styles import Size as Size
-from web_py.styles.colors import TextColor as TextColor
-from web_py.styles.colors import Color as Color
-from web_py.styles.fonts import Font as Font
-from web_py.components.title import title
+from webpy.components.link_icon import link_icon
+from webpy.components.info_text import info_text
+from webpy.styles.styles import Size as Size
+from webpy.styles.colors import TextColor as TextColor
+from webpy.styles.colors import Color as Color
+from webpy.styles.fonts import Font as Font
+from webpy.components.title import title
 
 
 

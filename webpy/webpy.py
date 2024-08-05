@@ -3,12 +3,12 @@
 import reflex as rx
 ...
 
-from web_py.components.navbar import navbar
-from web_py.components.footer import footer
-from web_py.views.header.header import header
-from web_py.views.links.links import links
-import web_py.styles.styles as styles
-from web_py.styles.styles import Size as Size
+from webpy.components.navbar import navbar
+from webpy.components.footer import footer
+from webpy.views.header.header import header
+from webpy.views.links.links import links
+import webpy.styles.styles as styles
+from webpy.styles.styles import Size as Size
 
 ...
 

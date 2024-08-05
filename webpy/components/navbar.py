@@ -1,7 +1,7 @@
 import reflex as rx
-import web_py.styles.styles as styles
-from web_py.styles.styles import Size as Size
-from web_py.styles.colors import Color as Color
+import webpy.styles.styles as styles
+from webpy.styles.styles import Size as Size
+from webpy.styles.colors import Color as Color
 
 
 

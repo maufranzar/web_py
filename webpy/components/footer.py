@@ -1,8 +1,8 @@
 import reflex as rx
 import datetime
-from web_py.styles.styles import Size as Size
-from web_py.styles.colors import TextColor as TextColor
-from web_py.components.info_text import info_text
+from webpy.styles.styles import Size as Size
+from webpy.styles.colors import TextColor as TextColor
+from webpy.components.info_text import info_text
 
 def footer() -> rx.Component:
     return rx.vstack(

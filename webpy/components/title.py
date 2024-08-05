@@ -1,5 +1,5 @@
 import reflex as rx
-import web_py.styles.styles as styles
+import webpy.styles.styles as styles
 
 
 def title(text:str) -> rx.Component:

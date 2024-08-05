@@ -1,6 +1,6 @@
 import reflex as rx
-from web_py.styles.styles import Size as Size
-from web_py.styles.colors import Color as Color
+from webpy.styles.styles import Size as Size
+from webpy.styles.colors import Color as Color
 
 def link_icon(image:str, url:str, alt:str) -> rx.Component:
     return rx.link(

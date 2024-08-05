@@ -1,6 +1,6 @@
 import reflex as rx
-import web_py.styles.styles as styles
-from web_py.styles.styles import Size as Size
+import webpy.styles.styles as styles
+from webpy.styles.styles import Size as Size
 
 
 def link_button(title:str, body:str, image:str ,url:str ) -> rx.Component:

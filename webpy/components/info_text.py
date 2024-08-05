@@ -1,7 +1,7 @@
 import reflex as rx
-from web_py.styles.styles import Size as Size
-from web_py.styles.colors import TextColor as TextColor
-from web_py.styles.colors import Color as Color
+from webpy.styles.styles import Size as Size
+from webpy.styles.colors import TextColor as TextColor
+from webpy.styles.colors import Color as Color
 
 
 def info_text(title:str, body:str) -> rx.Component:
